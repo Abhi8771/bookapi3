@@ -16,7 +16,7 @@ const AddBook = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:3001/book/add',
+    axios.post('https://bookapi3-1.onrender.com/book/add',
       { name, author, imageUrl },
       { withCredentials: true }
     )

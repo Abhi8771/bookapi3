@@ -18,7 +18,7 @@ function App() {
   const [role, setRole] = useState('');
 
   useEffect(() => {
-  axios.get('http://localhost:3001/auth/verify')
+  axios.get('https://bookapi3-1.onrender.com/auth/verify')
     .then(res => {
       if (res.data.login) {
         setRole(res.data.role);

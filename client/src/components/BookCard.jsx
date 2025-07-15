@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Button, ButtonGroup, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import '../css/BookCard.css'; // Assuming you have a CSS file for styling
+import '../css/BookCard.css'; 
 const BookCard = ({ book, role }) => {
   const { _id, name, author, imageUrl } = book;
 
